@@ -1,0 +1,13 @@
+{
+  "name": "Google Tasks",
+  "description": "Google Tasks Chrome App",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "tasks-16.png", "128": "tasks-128.png" },
+  "permissions": ["webview"]
+}
